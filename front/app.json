@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "caninehaus-front",
+    "slug": "caninehaus-front",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

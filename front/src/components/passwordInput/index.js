@@ -2,7 +2,7 @@ import React from "react";
 import { styles } from "./styles";
 import { TextInput, View } from "react-native";
 import { TouchableOpacity } from "react-native-gesture-handler";
-import { Ionicons } from '@expo/vector-icons';
+import { AntDesign } from '@expo/vector-icons';
 
 export default function PasswordInputComponent({
   placeholder,
@@ -28,11 +28,7 @@ export default function PasswordInputComponent({
         style={styles.iconContainer}
         onPress={togglePasswordVisibility}
       >
-        <Ionicons
-          name={isPasswordVisible ? "eye-off" : "eye"}
-          size={24}
-          color="#546E7A"
-        />
+        <AntDesign name={isPasswordVisible ? "eye" : "eyeo"} size={24} color="#2F80ED" />
       </TouchableOpacity>
     </View>
   );

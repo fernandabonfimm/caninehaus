@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "caninehaus.model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/caninehaus.model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/caninehaus.model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "caninehaus.model/1.0.0": {
+      "type": "project",
+      "path": "../caninehaus.model/caninehaus.model.csproj",
+      "msbuildProject": "../caninehaus.model/caninehaus.model.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "caninehaus.model >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\manab\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\caninehaus\\caninehaus.service\\caninehaus.service.csproj",
+      "projectName": "caninehaus.service",
+      "projectPath": "E:\\caninehaus\\caninehaus.service\\caninehaus.service.csproj",
+      "packagesPath": "C:\\Users\\manab\\.nuget\\packages\\",
+      "outputPath": "E:\\caninehaus\\caninehaus.service\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\manab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "E:\\caninehaus\\caninehaus.model\\caninehaus.model.csproj": {
+              "projectPath": "E:\\caninehaus\\caninehaus.model\\caninehaus.model.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import { View, Text, Image } from "react-native";
 import { styles } from "./styles";
+import MultiStepForm from "../../components/steps";
 
 export default function RegisterUser() {
   return (
@@ -14,6 +15,9 @@ export default function RegisterUser() {
         <Text style={styles.subtitle}>
           Preencha o formulário abaixo para fazer um cadastro
         </Text>
+      </View>
+      <View>
+        <MultiStepForm />
       </View>
     </View>
   );

@@ -10,6 +10,12 @@ export default function ButtonComponent({ title, onPress, style }) {
           ? styles.buttonSolid
           : style === "outline"
           ? styles.buttonOutline
+          : style === "solidRed"
+          ? styles.buttonSolidRed
+          : style === "outlineRed"
+          ? styles.buttonOutlineRed
+          : style === "disabled"
+          ? styles.buttonDisabled
           : null
       }
       onPress={onPress}
@@ -17,7 +23,17 @@ export default function ButtonComponent({ title, onPress, style }) {
       <Text
         style={{
           color:
-            style === "solid" ? "#fff" : style === "outline" ? "#21aaf1" : null,
+            style === "solid"
+              ? "#fff"
+              : style === "outline"
+              ? "#21aaf1"
+              : style === "solidRed"
+              ? "#fff"
+              : style === "outlineRed"
+              ? "#f31938"
+              : style === "disabled"
+              ? "#324858"
+              : null,
           textAlign: "center",
           fontSize: 16,
         }}

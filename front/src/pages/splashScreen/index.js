@@ -16,7 +16,7 @@ export default function SplashScreen() {
 
     const redirectTimer = setTimeout(() => {
       navigation.replace("Login");
-    }, 5000);
+    }, 10000);
 
     return () => clearTimeout(redirectTimer);
   }, [animation, navigation]);
